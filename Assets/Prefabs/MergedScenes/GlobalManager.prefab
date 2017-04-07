@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1349002274981010}
+  m_IsPrefabParent: 1
+--- !u!1 &1349002274981010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4733274688950546}
+  - component: {fileID: 114603678173509138}
+  m_Layer: 0
+  m_Name: GlobalManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4733274688950546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349002274981010}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.44956875, y: 4.5811768, z: 1.1902351}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114603678173509138
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1349002274981010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d158fe0163af24996860f43948ef58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightsPrefab: {fileID: 0}
+  ParticlesFront: {fileID: 0}
+  ParticlesBack: {fileID: 0}
+  SC0001_GEOMETRY: {fileID: 0}
+  SC0002_GEOMETRY: {fileID: 0}
+  SC0003_GEOMETRY: {fileID: 0}
+  SC0004_GEOMETRY: {fileID: 0}
+  SC0005_GEOMETRY: {fileID: 0}
+  SC0001_Wait_Lights_ON: 19.5
+  SC0001_Wait_BaseSoundTrk: 19
+  SC0001_Wait_SubTrk: 3
+  SC0001_Wait_BabyCryTrk: 23
+  SC0001_Wait_Particles_ON: 21.2
+  SC0001_Wait_PortalOpen: 19
+  SC0001_Wait_PortalClose: 22
+  SC0001_Wait_Void_Sound: 0
+  SC0001_Wait_LightShaft_ON: 19
+  SC0001_Wait_LightShaft_OFF: 22
+  SC0001_Wait_To_SC0002_TRANS: 30
+  BaseSoundtrack: {fileID: 0}
+  SubTrack: {fileID: 0}
+  BabyCry: {fileID: 0}
+  PortalOpen: {fileID: 0}
+  PortalClose: {fileID: 0}
+  VoidSound: {fileID: 0}
+  SC0002_Wait_To_Init_Morph: 9.125
+  SC0002_Wait_To_End_Morph: 18.29163
+  SC0002BaseSoundtrack: {fileID: 0}
+  SC0002SubTrack: {fileID: 0}
+  SC0002_Wait_To_SC0003_TRANS: 57
+  SC0003_Wait_PortalOpen: 80
+  SC0003_Wait_PortalClose: 83
+  SC0003SubTrack: {fileID: 0}
+  SC0003MaleTrack: {fileID: 0}
+  SC0003Femaletrack: {fileID: 0}
+  SC0003PortalOpen: {fileID: 0}
+  SC0003PortalClose: {fileID: 0}
+  SC0003_Wait_To_SC0004_TRANS: 97
+  SC0004BaseSoundtrack: {fileID: 0}
+  SC0004SubTrack: {fileID: 0}
+  SC0004_Wait_To_SC0005_TRANS: 1
